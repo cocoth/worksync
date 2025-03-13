@@ -37,7 +37,7 @@ php artisan key:generate
 php artisan migrate
 ```
 
-### Step 6: Install Filament
+### Step 6: Configure Admin Filament
 ```bash
 php artisan make:filament-user
 ```
