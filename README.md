@@ -6,7 +6,7 @@
 ### Prerequisites
 - PHP >= 7.3
 - Composer
-- Laravel >= 8.0
+- Laravel >= 10.0
 - Node.js & NPM
 
 ### Step 1: Clone the repository
@@ -42,7 +42,13 @@ php artisan migrate
 php artisan make:filament-user
 ```
 
-### Step 7: Serve the application
+### Step 7: Create storage link
+
+```bash
+php artisan storage:link
+```
+
+### Step 8: Serve the application
 ```bash
 php artisan serve
 ```
